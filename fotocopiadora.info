@@ -1,0 +1,20 @@
+name = fotocopiadora
+description = Un tema para sitios con fotocopiadoras
+core = 7.x
+stylesheets[all][] = /css/style.css
+; stylesheets[print][] = print.css
+
+regions[header] = Cabecera
+<div id="header">< ?php print render( $page['header'] ); ?></div>
+
+regions[content] = Contenido
+<div id="main">< ?php print render( $page['content'] ); ?></div>
+regions[right_a] = Columna derecha
+<div id="main">< ?php print render( $page['right_a'] ); ?></div>
+regions[footer] = Pie
+<div id="footer">< ?php print render( $page['footer'] ); ?></div>
+
+version = "0.1"
+project = "drupal"
+; 2012-05-02
+datestamp = "20150425"

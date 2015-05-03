@@ -1,0 +1,121 @@
+body{
+	padding:0; 
+	margin:0;
+}
+
+.usial {
+	font-family: Tahoma;
+	font-size: 10px;
+	color: #605428;
+}
+a.usial {
+	font-family: Tahoma;
+	font-size: 10px;
+	color: #605428;
+	text-decoration: underline;
+}
+a.usial:hover {
+	font-family: Tahoma;
+	font-size: 10px;
+	color: #605428;
+	text-decoration: none;
+}
+.usial2 {
+	font-family: Tahoma;
+	font-size: 10px;
+	color: #5B5B5B;
+}
+a.usial2 {
+	font-family: Tahoma;
+	font-size: 10px;
+	color: #5B5B5B;
+	text-decoration: underline;
+}
+a.usial2:hover {
+	font-family: Tahoma;
+	font-size: 10px;
+	color: #5B5B5B;
+	text-decoration: none;
+}
+.CR {
+	font-family: Tahoma;
+	font-size: 10px;
+	color: #73736E;
+}
+a.CR {
+	font-family: Tahoma;
+	font-size: 10px;
+	color: #73736E;
+	text-decoration: none;
+}
+a.CR:hover {
+	font-family: Tahoma;
+	font-size: 10px;
+	color: #73736E;
+	text-decoration: underline;
+}
+.HASC {
+	font-family: Tahoma;
+	font-size: 10px;
+	color: #555555;
+}
+a.HASC {
+	font-family: Tahoma;
+	font-size: 10px;
+	color: #555555;
+	text-decoration: underline;
+}
+a.HASC:hover {
+	font-family: Tahoma;
+	font-size: 10px;
+	color: #555555;
+	text-decoration: none;
+}
+.keys {
+	font-family: Tahoma;
+	font-size: 10px;
+	color: #464545;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+a.keys {
+	font-family: Tahoma;
+	font-size: 10px;
+	color: #464545;
+	text-decoration: none;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+a.keys:hover {
+	font-family: Tahoma;
+	font-size: 10px;
+	color: #464545;
+	text-decoration: underline;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+.red {
+	font-family: Tahoma;
+	font-size: 10px;
+	color: #A53902;
+}
+a.red {
+	font-family: Tahoma;
+	font-size: 10px;
+	color: #A53902;
+	text-decoration: underline;
+}
+a.red:hover {
+	font-family: Tahoma;
+	font-size: 10px;
+	color: #A53902;
+	text-decoration: none;
+}
+
+table.tabla{
+	border-color: #000;
+
+}
+
+
+.intext{font-family:tahoma, arial, times; font-size:11px; color:#555454; padding-left:4px} 
