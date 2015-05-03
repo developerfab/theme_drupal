@@ -19,7 +19,10 @@
                   <td height="75" align="right" valign="top"><img alt="" src="<?php print $logo; ?>" width="197" height="61"></td>
                 </tr>
                 <tr>
-                  <td align="right" valign="top"><img alt="" src="<?php print base_path() . path_to_theme(); ?>/images/Ourproducts.jpg" width="171" height="30" style="margin-right:12px "></td>
+                  <!-- COLUMNA IZQUIERDA -->
+                  <td align="right" valign="top"><img alt="" src="<?php print base_path() . path_to_theme(); ?>/images/Ourproducts.jpg" width="171" height="30" style="margin-right:12px "><br>
+                    <?php print render( $page['col_left'] ); ?>
+                  </td>
                 </tr>
               </table></td>
               <td><a href="index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image1','','<?php print base_path() . path_to_theme(); ?>/images/Home+.jpg',0)"><img alt="" src="<?php print base_path() . path_to_theme(); ?>/images/Homa-.jpg" name="Image1" width="106" height="104" ></a><a href="index-1.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','<?php print base_path() . path_to_theme(); ?>/images/Aboutus+.jpg',1)"><img alt="" src="<?php print base_path() . path_to_theme(); ?>/images/About-.jpg" name="Image2" width="105" height="104" ></a><a href="index-2.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3','','<?php print base_path() . path_to_theme(); ?>/images/Services+.jpg',0)"><img alt="" src="<?php print base_path() . path_to_theme(); ?>/images/Services-.jpg" name="Image3" width="105" height="104" ></a><a href="index-3.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','<?php print base_path() . path_to_theme(); ?>/images/Contact+.jpg',1)"><img alt="" src="<?php print base_path() . path_to_theme(); ?>/images/Contact-.jpg" name="Image4" width="108" height="104" ></a></td>
@@ -56,6 +59,7 @@
                 </tr>
               </table></td>
               <td width="19">&nbsp;</td>
+              <!-- COLUMNA CENTRAL DEL CONTENIDO-->
               <td width="403" valign="top"><table width="100%"   cellspacing="0" cellpadding="0">
                 <tr>
                   <td height="152" align="left" valign="top"><table width="382"   cellspacing="0" cellpadding="0" style="margin-left:12px; margin-top:25px ">

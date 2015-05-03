@@ -9,8 +9,8 @@ regions[header] = Cabecera
 
 regions[content] = Contenido
 <div id="main">< ?php print render( $page['content'] ); ?></div>
-regions[right_a] = Columna derecha
-<div id="main">< ?php print render( $page['right_a'] ); ?></div>
+regions[col_left] = Columna izquierda
+<div id="main">< ?php print render( $page['col_left'] ); ?></div>
 regions[footer] = Pie
 <div id="footer">< ?php print render( $page['footer'] ); ?></div>
 
